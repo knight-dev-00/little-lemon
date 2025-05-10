@@ -1,10 +1,11 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   return(
     <header>
       <div className="fluid-container">
-          <div className="col-6 logo">
+          <div className="col-4 logo">
             <Link to="/"><img src="images/logo.png" alt="Logo" /></Link>
           </div>
           <div className="col-6">

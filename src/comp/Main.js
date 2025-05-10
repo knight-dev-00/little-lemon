@@ -1,155 +1,108 @@
 import React from 'react';
 
-const HomePage = () => {
+const Homepage = () => {
     return(
       <>
         <section className="main-hero">
-          <h1>Real estate Luxury Modern<br />Website Design</h1>
-        </section>
-        <section className="intro">
-          <div className="container">
-            <div className="img">
-              <img src="images/palace.png" alt="a palace" />
-            </div>
-            <h2>Argument marketing qualité de vie</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-              tincidunt fringilla ex et vestibulum. Donec porttitor aliquet
-              ultricies.
-            </p>
+          <div className='container'>
+          <div className='col-6'>
+            <h1>Little Lemon</h1>
+            <h3>Chicago</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <button>Reserve a Table</button>
+          </div>
+          <div className='col-6 img'>
+            <img src='images/man-finos.jpg' alt='Man with finos' />
+          </div>
           </div>
         </section>
-        <section className="marketing">
+        <section className="specials">
           <div className="container">
-            <h2>
-              Lorem ipsum dolor sit amet,<br />aucun condos en vente
-            </h2>
-            <h4>Argument marketing</h4>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-              tincidunt fringilla ex et vestibulum.
-            </p>
-            <div className="courriel">
-              <div>
-                <label htmlfor="text">
-                  ______ COURRIEL
-                </label>
+            <h2>Specials</h2>
+            <button>Online Menu</button>
+            <div className='col-4'>
+              <div className="img">
+                <img src="images/greek-salad.png" alt="greek salad" />
               </div>
-              <input placeholder="Lorem ipsum" name="text" type="text" />
-              <button>S'ABONNER</button>
+              <h5>Greek Salad<span>$12.99</span></h5>
+              <p>
+                The famous greek salad of crispy lettuce, peppers, olives and our Chicago style feta cheese, garnished with crunchy garlic and rosemary croutons. 
+              </p>
+              <a href='#'>Order a delivery <img src="images/delivery-man.jpg" alt="delivery man" /></a>
+            </div>
+            <div   className='col-4'>
+              <div className="img">
+                <img src="images/bruchetta.png" alt="bruchetta" />
+              </div>
+              <h5>Bruchetta<span>$ 5.99</span></h5>
+              <p>
+                Our Bruschetta is made from grilled bread that has been smeared with garlic and seasoned with salt and olive oil. 
+              </p>
+              <a href='#'>Order a delivery <img src="images/delivery-man.jpg" alt="delivery man" /></a>
+            </div>
+            <div className='col-4'>
+              <div className="img">
+                <img src="images/lemon-dessert.png" alt="lemon-dessert" />
+              </div>
+              <h5>Lemon Dessert<span>$ 5.00</span></h5>
+              <p>
+                This comes straight from grandma’s recipe book, every last ingredient has been sourced and is as authentic as can be imagined.
+              </p>
+              <a href='#'>Order a delivery <img src="images/delivery-man.jpg" alt="delivery man" /></a>
+            </div>
+          </div>
+        </section>
+        <section className="testimonials">
+          <div className="container">
+            <h2>Testimonials</h2>
+            <div className="comment">
+              <h6>Rating</h6>
+              <div className='persona'>
+                <img src='images/character.png' alt='character' />
+                <span>Name</span>
+              </div>
+              <p>Review Text</p>
+            </div>
+            <div className="comment">
+              <h6>Rating</h6>
+              <div className='persona'>
+                <img src='images/character.png' alt='character' />
+                <span>Name</span>
+              </div>
+              <p>Review Text</p>
+            </div>
+            <div className="comment">
+              <h6>Rating</h6>
+              <div className='persona'>
+                <img src='images/character.png' alt='character' />
+                <span>Name</span>
+              </div>
+              <p>Review Text</p>
+            </div>
+            <div className="comment">
+              <h6>Rating</h6>
+              <div className='persona'>
+                <img src='images/character.png' alt='character' />
+                <span>Name</span>
+              </div>
+              <p>Review Text</p>
             </div>
           </div>
         </section>
         <section className="description">
-          <div className="bg-dark-gray">
-            <div className="container">
-              <h2>Lorem ipsum dolor sit amet,<br />qualité de vie</h2>
-              <div className="container images">
-                <div>
-                  <img src="images/description-images.png" alt="2 photos" />
-                </div>
-                <div className="col-3">
-                  <div className="underline">
-                    <h3>____</h3>
-                    <h3>Lorem ipsum<br />dolor sit</h3>
-                  </div>
-                  <p>
-                    Laoreet odio ac ipsum consequat luctus rhoncus vel turpis. Nunc
-                    fringilla felis eu aliquam commodo. Curabitur accumsan viverra
-                    nibh sed bibendum. Duis facilisis tortor sed purus hendrerit
-                    cursus.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="bg-light-gray">
-            <div className="container">
-              <h4>Argument marketing</h4>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-                tincidunt fringilla ex et vestibulum. Donec porttitor aliquet
-                ultricies.
-              </p>
-            </div>
-          </div>
-        </section>
-        <section className="piscine">
-          <div className="bg-dark-gray">
-            <div className="container">
-              <h2>Lorem ipsum dolor sit amet,<br />présentation du complexe</h2>
-              <div className="container images">
-                <div className="col-3">
-                  <div className="underline">
-                    <h3>____</h3>
-                    <h3>Lorem ipsum<br />dolor sit</h3>
-                  </div>
-                  <p>
-                    Laoreet odio ac ipsum consequat luctus rhoncus vel turpis.
-                    Nunc fringilla felis eu aliquam commodo. Curabitur accumsan
-                    viverra nibh sed bibendum. Duis facilisis tortor sed purus
-                    hendrerit cursus.
-                  </p>
-                </div>
-                <div>
-                  <img src="images/piscine-images.png" alt="2 photos" />
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="bg-light-gray">
-            <div className="container">
-              <h4>Argument marketing</h4>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-                tincidunt fringilla ex et vestibulum.
-              </p>
-            </div>
-          </div>
-        </section>
-        <section className="faq">
           <div className="container">
-            <h2>
-              Lorem ipsum dolor sit amet, questions
-            </h2>
-            <ul>
-              <li>
-                <h5>lorem ipsum dolor sit ?</h5>
-                <p>
-                  Ut laoreet odio ac ipsum consequat luctus rhoncus vel turpis.
-                  Nunc fringilla felis eu aliquam commodo. Curabitur accumsan
-                  viverra nibh sed bibendum. Duis facilisis tortor sed purus
-                  hendrerit cursus. Nunc fringilla felis eu aliquam commodo.
-                </p>
-              </li>
-              <li>
-                <h5>lorem ipsum dolor sit ?</h5>
-                <p>
-                  Ut laoreet odio ac ipsum consequat luctus rhoncus vel turpis.
-                  Nunc fringilla felis eu aliquam commodo. Curabitur accumsan
-                  viverra nibh sed bibendum. Duis facilisis tortor sed purus
-                  hendrerit cursus. Nunc fringilla felis eu aliquam commodo.
-                </p>
-              </li>
-              <li>
-                <h5>lorem ipsum dolor sit ?</h5>
-                <p>
-                  Ut laoreet odio ac ipsum consequat luctus rhoncus vel turpis.
-                  Nunc fringilla felis eu aliquam commodo. Curabitur accumsan
-                  viverra nibh sed bibendum. Duis facilisis tortor sed purus
-                  hendrerit cursus. Nunc fringilla felis eu aliquam commodo.
-                </p>
-              </li>
-              <li>
-                <h5>lorem ipsum dolor sit ?</h5>
-                <p>
-                  Ut laoreet odio ac ipsum consequat luctus rhoncus vel turpis.
-                  Nunc fringilla felis eu aliquam commodo. Curabitur accumsan
-                  viverra nibh sed bibendum. Duis facilisis tortor sed purus
-                  hendrerit cursus. Nunc fringilla felis eu aliquam commodo.
-                </p>
-              </li>
-            </ul>
+            <div className="col-4">
+              <h2>Little Lemon</h2>
+              <h3>Chicago</h3>
+              <p>
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. 
+              </p>
+            </div>
+            <div className='col-6 image-box'>
+              <img src="images/description-img.jpg" alt="description-img" />
+              <img src="images/description-img.jpg" alt="description-img" />
+            </div>
           </div>
         </section>
       </>
