@@ -5,20 +5,28 @@ const Homepage = () => {
       <>
         <section className="main-hero">
           <div className='container'>
-          <div className='col-6'>
             <h1>Little Lemon</h1>
-            <h3>Chicago</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <div className='col-6'>
+              <h3>Chicago</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <div className='col-6 img'>
+              <img src='images/man-finos.jpg' alt='Man with finos' />
+            </div>
             <button>Reserve a Table</button>
-          </div>
-          <div className='col-6 img'>
-            <img src='images/man-finos.jpg' alt='Man with finos' />
-          </div>
           </div>
         </section>
         <section className="specials">
           <div className="container">
             <h2>Specials</h2>
+            <h2>Order For Delivery</h2>
+            <ul class="filter-list">
+              <li><a href="#">Lunch</a></li>
+              <li><a href="#">Mains</a></li>
+              <li><a href="#">Desserts</a></li>
+              <li><a href="#">A La Carte</a></li>
+              <li><a href="#">Specials</a></li>
+            </ul>
             <button>Online Menu</button>
             <div className='col-4'>
               <div className="img">
